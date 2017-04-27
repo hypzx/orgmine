@@ -3195,7 +3195,7 @@ Then entry could be an issue, version, tracker or project."
 	 (list (mapcar (lambda (tracker)
 			 (orgmine-idname tracker nil t))
 		       trackers)))
-    (insert "#+PROPERTY: om_trackers_ALL "
+    (insert "#+PROPERTY: om_tracker_ALL "
 	    (mapconcat 'identity list " ")
 	    "\n")))
 
