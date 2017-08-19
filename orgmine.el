@@ -1930,7 +1930,8 @@ return the issue number of the current entry."
 			"om_relation_duplicates" "om_relation_duplicated"
 			"om_relation_blocks" "om_relation_blocked"
 			"om_relation_precedes" "om_relation_follows"
-			"om_relation_copied_to" "om_relation_copied_from")))
+			"om_relation_copied_to" "om_relation_copied_from"
+      "om_parent_issue_id")))
 	     (if (boundp 'orgmine-custom-fields)
 		 (nconc names (mapcar 'car orgmine-custom-fields))
 	       names))))))
